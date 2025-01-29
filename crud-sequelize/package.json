@@ -1,0 +1,23 @@
+{
+    "name": "crud-sequelize",
+    "version": "1.0.0",
+    "main": "index.js",
+    "type": "module",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "dev": "node -r dotenv/config --watch index.js"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "description": "",
+    "dependencies": {
+        "cors": "^2.8.5",
+        "express": "^5.0.1",
+        "pg": "^8.13.1",
+        "sequelize": "^6.37.5"
+    },
+    "devDependencies": {
+        "dotenv": "^16.4.7"
+    }
+}
